@@ -1,0 +1,53 @@
+<html>
+    <style>
+        body {
+          background: white;
+        }
+    </style>
+    <body>
+        <canvas></canvas>
+    <fieldset>
+        <legend>Select an Action:</legend>
+  
+        <div>
+            <input type="radio" id="idle" name="action" value="idle" onclick="handleClickAction(this);" checked />
+            <label for="idle">Idle</label>
+        </div>
+  
+        <div>
+            <input type="radio" id="walk" name="action" onclick="handleClickAction(this);" value="walk" />
+            <label for="walk">Walk</label>
+        </div>  
+        <div>
+            <input type="radio" id="attack" name="action" onclick="handleClickAction(this);" value="attack" />
+            <label for="attack">Attack</label>
+        </div>  
+        <div>
+            <input type="radio" id="die" name="action" onclick="handleClickAction(this);" value="die" />
+            <label for="die">Die</label>
+        </div>  
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Select a Direction:</legend>
+  
+        <div>
+            <input type="radio" id="right" name="direction" onclick="handleClickDirection(this);" value="Right" checked />
+            <label for="right">Right</label>
+        </div>
+  
+        <div>
+            <input type="radio" id="left" name="direction" onclick="handleClickDirection(this);" value="Left" />
+            <label for="left">Left</label>
+        </div>  
+    </fieldset>
+    </body>
+</html>
+
+<!-- -->
+<script src="./classes/Baddies.js"></script>
+<!-- -->
+<script src="script.js"></script>
+<!-- To control the switch between actions and directions -->
+<script src="html_controls.js"></script>

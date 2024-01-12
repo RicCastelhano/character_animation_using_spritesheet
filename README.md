@@ -1,5 +1,7 @@
 # Character Animation with Multiple Actions and Directions with a Single Spritesheet
 
+The original post is [here](https://creativecode.ricardocastelhano.net/2024-01-06-character-animation-spritesheet/).
+
 The explanation is inside the code.
 
 ![Final result](/assets/final.png)
